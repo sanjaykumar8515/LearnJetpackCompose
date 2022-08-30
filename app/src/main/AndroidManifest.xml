@@ -11,17 +11,20 @@
         android:theme="@style/Theme.ComposeTutorial">
         <activity
             android:name=".DefaultComposeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_compose_sample_list"
+            android:theme="@style/Theme.ComposeTutorial" />
+        <activity
+            android:name=".ComposeSampleList"
             android:exported="true"
             android:label="@string/title_activity_default_compose"
             android:theme="@style/Theme.ComposeTutorial">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
     </application>
 
 </manifest>
