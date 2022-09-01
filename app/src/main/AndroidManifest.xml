@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeTutorial">
         <activity
+            android:name=".BasicLayoutSample"
+            android:exported="true"
+            android:label="@string/title_activity_basic_layout_sample"
+            android:theme="@style/Theme.ComposeTutorial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".DefaultComposeActivity"
             android:exported="false"
             android:label="@string/title_activity_compose_sample_list"
@@ -19,11 +30,6 @@
             android:exported="true"
             android:label="@string/title_activity_default_compose"
             android:theme="@style/Theme.ComposeTutorial">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
