@@ -139,7 +139,7 @@ private fun SearchBar(
         placeholder= {
             Text(stringResource(R.string.placeholder_search))
         },
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
             .heightIn(min = 56.dp))
 }
